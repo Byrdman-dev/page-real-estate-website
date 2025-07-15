@@ -24,7 +24,7 @@ export default function Home() {
             <p className="text-xl text-gray-700 mb-4">
               Your trusted partner in Lake Charles real estate
             </p>
-            <p className="text-blue-600 text-2xl font-semibold italic mb-8">
+            <p className="text-gray-700 text-2xl font-semibold italic mb-8">
               "Let me do your homework"
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
@@ -33,12 +33,12 @@ export default function Home() {
             </p>
             <div className="flex gap-4 justify-center flex-col sm:flex-row">
               <Link href="/about">
-                <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg py-3 px-8 rounded-xl transition-colors">
+                <button className="bg-gray-800 hover:bg-gray-700 text-white text-lg py-3 px-8 rounded-xl transition-colors">
                   Learn About Us
                 </button>
               </Link>
               <Link href="/contact">
-                <button className="bg-white hover:bg-gray-50 text-blue-600 border-2 border-blue-600 text-lg py-3 px-8 rounded-xl transition-colors">
+                <button className="bg-white hover:bg-gray-50 text-gray-800 border-2 border-gray-800 text-lg py-3 px-8 rounded-xl transition-colors">
                   Get In Touch
                 </button>
               </Link>

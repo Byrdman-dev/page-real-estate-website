@@ -16,39 +16,39 @@ export default function About() {
       
       {/* Floating decorative elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-20 left-10 w-20 h-20 bg-blue-200/30 rounded-full animate-pulse"></div>
-        <div className="absolute top-40 right-20 w-16 h-16 bg-blue-300/20 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
-        <div className="absolute bottom-40 left-20 w-12 h-12 bg-blue-400/25 rounded-full animate-pulse" style={{animationDelay: '2s'}}></div>
+        <div className="absolute top-20 left-10 w-20 h-20 bg-gray-300/30 rounded-full animate-pulse"></div>
+        <div className="absolute top-40 right-20 w-16 h-16 bg-gray-400/20 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
+        <div className="absolute bottom-40 left-20 w-12 h-12 bg-gray-500/25 rounded-full animate-pulse" style={{animationDelay: '2s'}}></div>
       </div>
       
       <div className="relative z-10 flex items-center justify-center p-6 pt-16">
         <div className="max-w-4xl w-full">
           <div className="bg-white/90 backdrop-blur-sm p-12 rounded-2xl shadow-2xl transform hover:scale-[1.02] transition-transform duration-300">
             <div className="text-center mb-8">
-              <div className="inline-block p-4 bg-blue-100 rounded-full mb-4">
-                <svg className="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="inline-block p-4 bg-gray-100 rounded-full mb-4">
+                <svg className="w-12 h-12 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               </div>
               <h1 className="text-4xl font-bold text-gray-800 mb-4">About Laurie</h1>
-              <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-blue-600 mx-auto rounded-full"></div>
+              <div className="w-24 h-1 bg-gradient-to-r from-gray-600 to-gray-800 mx-auto rounded-full"></div>
             </div>
             
             <div className="prose prose-lg max-w-none space-y-6">
-              <div className="bg-gradient-to-r from-blue-50 to-transparent p-6 rounded-xl border-l-4 border-blue-400">
+              <div className="bg-gradient-to-r from-gray-50 to-transparent p-6 rounded-xl border-l-4 border-gray-600">
                 <p className="text-gray-700 text-lg leading-relaxed m-0">
-                  <span className="text-2xl text-blue-600 font-bold">"</span>Laurie began her real estate career over 30 years ago in Lake Charles. She started in property
+                  <span className="text-2xl text-gray-700 font-bold">"</span>Laurie began her real estate career over 30 years ago in Lake Charles. She started in property
                   management and transitioned into sales after 12 years of managing several apartment
                   complexes and many single-family homes. She discovered that sales is where her heart is. She
-                  feels there is nothing like finding someone's dream home with them.<span className="text-2xl text-blue-600 font-bold">"</span>
+                  feels there is nothing like finding someone's dream home with them.<span className="text-2xl text-gray-700 font-bold">"</span>
                 </p>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white/50 p-6 rounded-xl shadow-lg">
                   <div className="flex items-center mb-4">
-                    <div className="p-2 bg-green-100 rounded-lg mr-3">
-                      <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="p-2 bg-gray-100 rounded-lg mr-3">
+                      <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
                     </div>
@@ -63,8 +63,8 @@ export default function About() {
                 
                 <div className="bg-white/50 p-6 rounded-xl shadow-lg">
                   <div className="flex items-center mb-4">
-                    <div className="p-2 bg-purple-100 rounded-lg mr-3">
-                      <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="p-2 bg-gray-100 rounded-lg mr-3">
+                      <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                       </svg>
                     </div>
@@ -76,10 +76,10 @@ export default function About() {
                 </div>
               </div>
               
-              <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-6 rounded-xl border border-yellow-200">
+              <div className="bg-gradient-to-r from-gray-50 to-gray-100 p-6 rounded-xl border border-gray-200">
                 <div className="flex items-center mb-4">
-                  <div className="p-2 bg-yellow-100 rounded-lg mr-3">
-                    <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="p-2 bg-gray-200 rounded-lg mr-3">
+                    <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                     </svg>
                   </div>
@@ -93,9 +93,9 @@ export default function About() {
                 </p>
               </div>
               
-              <div className="text-center bg-blue-600 text-white p-8 rounded-xl shadow-lg">
+              <div className="text-center bg-gray-800 text-white p-8 rounded-xl shadow-lg">
                 <h3 className="text-2xl font-bold mb-4">Ready to Find Your Dream Home?</h3>
-                <p className="text-blue-100 text-lg mb-4">
+                <p className="text-gray-300 text-lg mb-4">
                   Whether you are looking for your dream home or purchasing a lot for your future retirement
                   home, Laurie looks forward to guiding you through the process.
                 </p>
