@@ -3,19 +3,27 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="relative z-10 bg-white shadow-sm p-4">
-      <div className="max-w-4xl mx-auto flex justify-between items-center">
-        <Link href="/">
-          <Image src={"/logo.png"} alt="Laurie Real Estate Logo" width={192} height={96} className="w-48" />
+    <header className="relative z-10 bg-gradient-to-r from-blue-50 via-white to-blue-50 shadow-lg border-b border-blue-100">
+      <div className="max-w-4xl mx-auto flex justify-between items-center py-4 px-6">
+        <Link href="/" className="transform hover:scale-105 transition-transform duration-200">
+          <div className="flex items-center space-x-3">
+            <Image 
+              src={"/logo.png"} 
+              alt="Laurie Real Estate Logo" 
+              width={192} 
+              height={96} 
+              className="w-48 drop-shadow-sm" 
+            />
+          </div>
         </Link>
-        <nav className="flex space-x-6">
-          <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">
+        <nav className="flex space-x-2">
+          <Link href="/" className="px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 font-medium rounded-lg transition-all duration-200 hover:shadow-sm">
             Home
           </Link>
-          <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">
+          <Link href="/about" className="px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 font-medium rounded-lg transition-all duration-200 hover:shadow-sm">
             About
           </Link>
-          <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">
+          <Link href="/contact" className="px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 font-medium rounded-lg transition-all duration-200 hover:shadow-sm">
             Contact
           </Link>
         </nav>
