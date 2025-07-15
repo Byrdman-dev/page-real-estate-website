@@ -5,8 +5,16 @@ import Image from "next/image";
 export default function LaurieContactCard() {
   return (
     <div className="min-h-screen bg-gray-50 relative">
-      {/* Background placeholder image */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-gray-200 opacity-30"></div>      
+      {/* Background hero image */}
+      <div className="absolute inset-0">
+        <Image 
+          src="/lake_charles_hero.jpg" 
+          alt="Lake Charles background" 
+          fill
+          className="object-cover opacity-20"
+          priority
+        />
+      </div>      
       {/* Header with logo */}
       <header className="relative z-10 bg-white shadow-sm p-4">
         <div className="max-w-4xl mx-auto flex justify-center">
