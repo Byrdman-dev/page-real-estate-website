@@ -4,12 +4,24 @@ import Image from "next/image";
 
 export default function LaurieContactCard() {
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center p-6">
-      <div className="max-w-4xl w-full grid grid-cols-1 md:grid-cols-2 shadow-2xl rounded-2xl overflow-hidden">
-        <div className="bg-white p-6 flex flex-col justify-between">
-          <div>
-            <Image src={"/logo.png"} alt="Laurie Real Estate Logo" width={192} height={96} className="mb-6 w-48" />
-            <h1 className="text-3xl font-bold text-gray-800 mb-4">Laurie Campbell</h1>
+    <div className="min-h-screen bg-gray-50 relative">
+      {/* Background placeholder image */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-gray-200 opacity-30"></div>
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.1"%3E%3Ccircle cx="30" cy="30" r="4"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
+      
+      {/* Header with logo */}
+      <header className="relative z-10 bg-white shadow-sm p-4">
+        <div className="max-w-4xl mx-auto flex justify-center">
+          <Image src={"/logo.png"} alt="Laurie Real Estate Logo" width={192} height={96} className="w-48" />
+        </div>
+      </header>
+
+      <div className="relative z-10 flex items-center justify-center p-6 pt-8">
+        <div className="max-w-4xl w-full grid grid-cols-1 md:grid-cols-2 shadow-2xl rounded-2xl overflow-hidden">
+          <div className="bg-white p-6 flex flex-col justify-between">
+            <div>
+              <h1 className="text-3xl font-bold text-gray-800 mb-2">Laurie Campbell</h1>
+              <p className="text-blue-600 text-lg font-semibold italic mb-4">"Let me do your homework"</p>
             <p className="text-gray-700 text-sm leading-relaxed">
               Laurie began her real estate career over 30 years ago in Lake Charles. She started in property
               management and transitioned into sales after 12 years of managing several apartment
