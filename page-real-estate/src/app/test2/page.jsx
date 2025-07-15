@@ -55,25 +55,26 @@ export default function LaurieContactCard() {
           </div>
 
           <div className="bg-blue-100 p-6 flex flex-col justify-between">
-          <div>
-            <h2 className="text-2xl font-semibold text-blue-900 mb-4">Contact Information</h2>
-            <ul className="space-y-4 text-blue-900">
-              <li className="flex items-center">
-                <Phone className="mr-3" />
-                <span>(337) 660-3672</span>
-              </li>
-              <li className="flex items-center">
-                <Mail className="mr-3" />
-                <span>laurie@pagerealestate.com</span>
-              </li>
-              <li className="flex items-center">
-                <MapPin className="mr-3" />
-                <span>Lake Charles, LA</span>
-              </li>
-            </ul>
-          </div>
-          <div className="mt-6">
-            <p className="text-sm text-blue-800">&copy; {new Date().getFullYear()} Page Real Estate. All rights reserved.</p>
+            <div>
+              <h2 className="text-2xl font-semibold text-blue-900 mb-4">Contact Information</h2>
+              <ul className="space-y-4 text-blue-900">
+                <li className="flex items-center">
+                  <Phone className="mr-3" />
+                  <span>(337) 660-3672</span>
+                </li>
+                <li className="flex items-center">
+                  <Mail className="mr-3" />
+                  <span>laurie@pagerealestate.com</span>
+                </li>
+                <li className="flex items-center">
+                  <MapPin className="mr-3" />
+                  <span>Lake Charles, LA</span>
+                </li>
+              </ul>
+            </div>
+            <div className="mt-6">
+              <p className="text-sm text-blue-800">&copy; {new Date().getFullYear()} Page Real Estate. All rights reserved.</p>
+            </div>
           </div>
         </div>
       </div>
