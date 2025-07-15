@@ -23,13 +23,10 @@ export default function Contact() {
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">Get in Touch</h2>
                 <div className="space-y-4">
                   <p className="text-gray-700 text-lg">
-                    <strong>Phone:</strong> (337) 555-0123
+                    <strong>Phone:</strong> (337) 660-3672
                   </p>
                   <p className="text-gray-700 text-lg">
-                    <strong>Email:</strong> info@laurierealestate.com
-                  </p>
-                  <p className="text-gray-700 text-lg">
-                    <strong>Address:</strong> 123 Main Street, Lake Charles, LA 70601
+                    <strong>Email:</strong> laurie@pagerealestate.com
                   </p>
                 </div>
               </div>
@@ -42,9 +39,6 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-            <p className="text-blue-600 text-xl font-semibold italic text-center mt-8">
-              "Let me do your homework"
-            </p>
           </div>
         </div>
       </div>
