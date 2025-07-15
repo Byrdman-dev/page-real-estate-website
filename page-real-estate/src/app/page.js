@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -16,8 +15,6 @@ export default function Home() {
         />
       </div>
       
-      <Header />
-
       <div className="relative z-10 flex items-center justify-center p-6 pt-16">
         <div className="max-w-4xl w-full text-center">
           <div className="bg-white/90 backdrop-blur-sm p-12 rounded-2xl shadow-2xl">
