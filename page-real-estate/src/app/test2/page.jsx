@@ -11,7 +11,7 @@ export default function LaurieContactCard() {
           src="/lake_charles_hero.jpg" 
           alt="Lake Charles background" 
           fill
-          className="object-cover opacity-20"
+          className="object-cover opacity-80"
           priority
         />
       </div>      
