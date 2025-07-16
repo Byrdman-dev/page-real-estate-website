@@ -23,7 +23,7 @@ export default function About() {
       
       <div className="relative z-10 flex items-center justify-center p-6 pt-16">
         <div className="max-w-4xl w-full">
-          <div className="bg-white/90 backdrop-blur-sm p-12 rounded-2xl shadow-2xl transform hover:scale-[1.02] transition-transform duration-300">
+          <div className="p-12 transform hover:scale-[1.02] transition-transform duration-300">
             <div className="text-center mb-8">
               <div className="inline-block p-4 bg-gray-100 rounded-full mb-4">
                 <svg className="w-12 h-12 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -35,7 +35,7 @@ export default function About() {
             </div>
             
             <div className="prose prose-lg max-w-none space-y-6">
-              <div className="bg-gradient-to-r from-gray-50 to-transparent p-6 rounded-xl border-l-4 border-gray-600">
+              <div className="bg-black/20 backdrop-blur-sm p-6 rounded-xl border-l-4 border-white">
                 <p className="text-gray-700 text-lg leading-relaxed m-0">
                   <span className="text-2xl text-gray-700 font-bold">"</span>Laurie began her real estate career over 30 years ago in Lake Charles. She started in property
                   management and transitioned into sales after 12 years of managing several apartment
@@ -45,7 +45,7 @@ export default function About() {
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-white/50 p-6 rounded-xl shadow-lg">
+                <div className="bg-black/20 backdrop-blur-sm p-6 rounded-xl shadow-lg">
                   <div className="flex items-center mb-4">
                     <div className="p-2 bg-gray-100 rounded-lg mr-3">
                       <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -61,7 +61,7 @@ export default function About() {
                   </p>
                 </div>
                 
-                <div className="bg-white/50 p-6 rounded-xl shadow-lg">
+                <div className="bg-black/20 backdrop-blur-sm p-6 rounded-xl shadow-lg">
                   <div className="flex items-center mb-4">
                     <div className="p-2 bg-gray-100 rounded-lg mr-3">
                       <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -76,7 +76,7 @@ export default function About() {
                 </div>
               </div>
               
-              <div className="bg-gradient-to-r from-gray-50 to-gray-100 p-6 rounded-xl border border-gray-200">
+              <div className="bg-black/20 backdrop-blur-sm p-6 rounded-xl border border-white/30">
                 <div className="flex items-center mb-4">
                   <div className="p-2 bg-gray-200 rounded-lg mr-3">
                     <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -93,13 +93,13 @@ export default function About() {
                 </p>
               </div>
               
-              <div className="text-center bg-gray-800 text-white p-8 rounded-xl shadow-lg">
+              <div className="text-center bg-black/40 backdrop-blur-sm text-white p-8 rounded-xl shadow-lg">
                 <h3 className="text-2xl font-bold mb-4">Ready to Find Your Dream Home?</h3>
                 <p className="text-gray-300 text-lg mb-4">
                   Whether you are looking for your dream home or purchasing a lot for your future retirement
                   home, Laurie looks forward to guiding you through the process.
                 </p>
-                <div className="inline-block p-3 bg-white/20 rounded-full">
+                <div className="inline-block p-3 bg-white/30 rounded-full">
                   <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                   </svg>
