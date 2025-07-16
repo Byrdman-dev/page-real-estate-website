@@ -69,42 +69,9 @@ export default function Contact() {
               </div>
               
               <div className="space-y-6">
-                <div className="bg-black/20 backdrop-blur-sm p-6 rounded-xl shadow-lg">
-                  <div className="flex items-center mb-4">
-                    <div className="p-3 bg-gray-700 rounded-full mr-4">
-                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                    </div>
-                    <h3 className="text-xl font-semibold text-gray-800">Office Hours</h3>
-                  </div>
-                  <div className="space-y-3">
-                    <div className="flex justify-between items-center p-2 bg-white/20 rounded-lg">
-                      <span className="font-medium text-gray-700">Monday - Friday</span>
-                      <span className="text-gray-700 font-semibold">9:00 AM - 6:00 PM</span>
-                    </div>
-                    <div className="flex justify-between items-center p-2 bg-white/20 rounded-lg">
-                      <span className="font-medium text-gray-700">Saturday</span>
-                      <span className="text-gray-700 font-semibold">10:00 AM - 4:00 PM</span>
-                    </div>
-                    <div className="flex justify-between items-center p-2 bg-white/20 rounded-lg">
-                      <span className="font-medium text-gray-700">Sunday</span>
-                      <span className="text-gray-700 font-semibold">By appointment</span>
-                    </div>
-                  </div>
-                </div>
                 
-                <div className="bg-black/20 backdrop-blur-sm p-6 rounded-xl shadow-lg">
-                  <div className="flex items-center mb-4">
-                    <div className="p-3 bg-gray-700 rounded-full mr-4">
-                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                    </div>
-                    <h3 className="text-xl font-semibold text-gray-800">Quick Response</h3>
-                  </div>
-                  <p className="text-gray-700">I pride myself on quick response times. Most calls and emails are returned within 2 hours during business hours.</p>
-                </div>
+                
+                
               </div>
             </div>
             
