@@ -57,9 +57,7 @@ export default function About() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                     <div className="absolute bottom-2 left-2 text-white">
-                      <p className="text-xs font-medium bg-black/50 px-2 py-1 rounded-full backdrop-blur-sm">
-                        Perfect home details
-                      </p>
+                      
                     </div>
                   </div>
                 </div>
