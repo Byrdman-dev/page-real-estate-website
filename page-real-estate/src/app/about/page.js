@@ -47,18 +47,14 @@ export default function About() {
               <div className="grid md:grid-cols-3 gap-6">
                 {/* Featured porch image - smaller on left */}
                 <div className="bg-black/20 backdrop-blur-sm p-4 rounded-xl shadow-lg">
-                  <div className="relative aspect-auto rounded-lg overflow-hidden">
+                  <div className="rounded-lg overflow-hidden">
                     <Image 
                       src="/porch.jpg" 
                       alt="Beautiful porch - the kind of home details Laurie helps clients find" 
                       width={400}
                       height={300}
-                      className="w-full h-auto object-contain hover:scale-105 transition-transform duration-500"
+                      className="w-full h-auto hover:scale-105 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
-                    <div className="absolute bottom-2 left-2 text-white">
-                      
-                    </div>
                   </div>
                 </div>
                 
