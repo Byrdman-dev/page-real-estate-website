@@ -44,54 +44,57 @@ export default function About() {
                 </p>
               </div>
               
-              {/* Featured porch image */}
-              <div className="bg-black/20 backdrop-blur-sm p-6 rounded-xl shadow-lg">
-                <div className="relative aspect-auto rounded-lg overflow-hidden">
-                  <Image 
-                    src="/porch.jpg" 
-                    alt="Beautiful porch - the kind of home details Laurie helps clients find" 
-                    width={800}
-                    height={600}
-                    className="w-full h-auto object-contain hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
-                  <div className="absolute bottom-4 left-4 text-white">
-                    <p className="text-sm font-medium bg-black/50 px-3 py-1 rounded-full backdrop-blur-sm">
-                      Finding the perfect details that make a house a home
-                    </p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-black/20 backdrop-blur-sm p-6 rounded-xl shadow-lg">
-                  <div className="flex items-center mb-4">
-                    <div className="p-2 bg-gray-100 rounded-lg mr-3">
-                      <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
+              <div className="grid md:grid-cols-3 gap-6">
+                {/* Featured porch image - smaller on left */}
+                <div className="bg-black/20 backdrop-blur-sm p-4 rounded-xl shadow-lg">
+                  <div className="relative aspect-auto rounded-lg overflow-hidden">
+                    <Image 
+                      src="/porch.jpg" 
+                      alt="Beautiful porch - the kind of home details Laurie helps clients find" 
+                      width={400}
+                      height={300}
+                      className="w-full h-auto object-contain hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+                    <div className="absolute bottom-2 left-2 text-white">
+                      <p className="text-xs font-medium bg-black/50 px-2 py-1 rounded-full backdrop-blur-sm">
+                        Perfect home details
+                      </p>
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-800">Professional Excellence</h3>
                   </div>
-                  <p className="text-gray-700 leading-relaxed">
-                    Whether new to Lake Charles or moving to another area, she feels it is a privilege to work with
-                    her clients to find them the perfect home in this city she loves. Laurie optimizes integrity,
-                    honesty, and service in every detail of your real estate transaction.
-                  </p>
                 </div>
                 
-                <div className="bg-black/20 backdrop-blur-sm p-6 rounded-xl shadow-lg">
-                  <div className="flex items-center mb-4">
-                    <div className="p-2 bg-gray-100 rounded-lg mr-3">
-                      <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                      </svg>
+                {/* Professional Excellence and Personal Touch on right */}
+                <div className="md:col-span-2 space-y-6">
+                  <div className="bg-black/20 backdrop-blur-sm p-6 rounded-xl shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="p-2 bg-gray-100 rounded-lg mr-3">
+                        <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </div>
+                      <h3 className="text-xl font-semibold text-gray-800">Professional Excellence</h3>
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-800">Personal Touch</h3>
+                    <p className="text-gray-700 leading-relaxed">
+                      Whether new to Lake Charles or moving to another area, she feels it is a privilege to work with
+                      her clients to find them the perfect home in this city she loves. Laurie optimizes integrity,
+                      honesty, and service in every detail of your real estate transaction.
+                    </p>
                   </div>
-                  <p className="text-gray-700 leading-relaxed">
-                    From contract to closing, whether buying, selling, or leasing, she will work diligently to make this an exciting and stress-free process. She has worked in every aspect of the business and offers the highest level of service.
-                  </p>
+                  
+                  <div className="bg-black/20 backdrop-blur-sm p-6 rounded-xl shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="p-2 bg-gray-100 rounded-lg mr-3">
+                        <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        </svg>
+                      </div>
+                      <h3 className="text-xl font-semibold text-gray-800">Personal Touch</h3>
+                    </div>
+                    <p className="text-gray-700 leading-relaxed">
+                      From contract to closing, whether buying, selling, or leasing, she will work diligently to make this an exciting and stress-free process. She has worked in every aspect of the business and offers the highest level of service.
+                    </p>
+                  </div>
                 </div>
               </div>
               
