@@ -69,14 +69,16 @@ export default function Contact() {
             
             {/* Featured front door image */}
             <div className="mt-8 bg-black/20 backdrop-blur-sm p-6 rounded-xl shadow-lg">
-              <div className="rounded-lg overflow-hidden">
-                <Image 
-                  src="/front door.jpg" 
-                  alt="Beautiful front door - your gateway to finding the perfect home" 
-                  width={800}
-                  height={600}
-                  className="w-full h-auto hover:scale-105 transition-transform duration-500"
-                />
+              <div className="flex justify-center">
+                <div className="rounded-lg overflow-hidden max-w-md">
+                  <Image 
+                    src="/front door.jpg" 
+                    alt="Beautiful front door - your gateway to finding the perfect home" 
+                    width={400}
+                    height={300}
+                    className="w-full h-auto hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
               </div>
             </div>
             
