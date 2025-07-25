@@ -46,7 +46,7 @@ export default function About() {
               
               {/* Featured porch image */}
               <div className="bg-black/20 backdrop-blur-sm p-6 rounded-xl shadow-lg">
-                <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
+                <div className="relative h-80 md:h-96 rounded-lg overflow-hidden">
                   <Image 
                     src="/porch.jpg" 
                     alt="Beautiful porch - the kind of home details Laurie helps clients find" 
