@@ -28,7 +28,7 @@ export default function Home() {
               "Let me do your homework"
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              With over 30 years of experience in Lake Charles real estate, we're here to help you 
+              With over 30 years of experience in real estate, we're here to help you 
               find your dream home or sell your property with confidence and ease.
             </p>
             <div className="flex gap-4 justify-center flex-col sm:flex-row">
