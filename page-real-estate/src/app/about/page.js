@@ -46,12 +46,13 @@ export default function About() {
               
               {/* Featured porch image */}
               <div className="bg-black/20 backdrop-blur-sm p-6 rounded-xl shadow-lg">
-                <div className="relative h-80 md:h-96 rounded-lg overflow-hidden">
+                <div className="relative aspect-auto rounded-lg overflow-hidden">
                   <Image 
                     src="/porch.jpg" 
                     alt="Beautiful porch - the kind of home details Laurie helps clients find" 
-                    fill
-                    className="object-cover hover:scale-105 transition-transform duration-500"
+                    width={800}
+                    height={600}
+                    className="w-full h-auto object-contain hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
