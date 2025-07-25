@@ -67,6 +67,24 @@ export default function Contact() {
               </div>
             </div>
             
+            {/* Featured front door image */}
+            <div className="mt-8 bg-black/20 backdrop-blur-sm p-6 rounded-xl shadow-lg">
+              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
+                <Image 
+                  src="/front door.jpg" 
+                  alt="Beautiful front door - your gateway to finding the perfect home" 
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                <div className="absolute bottom-4 left-4 text-white">
+                  <p className="text-sm font-medium bg-black/60 px-3 py-2 rounded-full backdrop-blur-sm">
+                    Your next home is just a call away
+                  </p>
+                </div>
+              </div>
+            </div>
+            
             <div className="mt-8 text-center bg-black/40 backdrop-blur-sm text-white p-8 rounded-xl shadow-lg">
               <div className="inline-block p-3 bg-white/20 rounded-full mb-4">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
