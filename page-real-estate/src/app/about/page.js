@@ -44,6 +44,24 @@ export default function About() {
                 </p>
               </div>
               
+              {/* Featured porch image */}
+              <div className="bg-black/20 backdrop-blur-sm p-6 rounded-xl shadow-lg">
+                <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
+                  <Image 
+                    src="/porch.jpg" 
+                    alt="Beautiful porch - the kind of home details Laurie helps clients find" 
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+                  <div className="absolute bottom-4 left-4 text-white">
+                    <p className="text-sm font-medium bg-black/50 px-3 py-1 rounded-full backdrop-blur-sm">
+                      Finding the perfect details that make a house a home
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-black/20 backdrop-blur-sm p-6 rounded-xl shadow-lg">
                   <div className="flex items-center mb-4">
