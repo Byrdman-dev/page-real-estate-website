@@ -18,7 +18,7 @@ export default function Home() {
       <div className="relative z-10 flex items-center justify-center p-6 pt-16">
         <div className="max-w-4xl w-full text-center">
           <div className="p-12">
-            <h1 className="text-5xl font-extrabold text-gray-800 mb-6 tracking-wide drop-shadow-lg font-serif">
+            <h1 className="text-5xl font-extrabold text-gray-800 mb-6 tracking-wide drop-shadow-lg font-serif text-center">
               Welcome to Page Real Estate
             </h1>
             <p className="text-xl text-gray-700 mb-4">
