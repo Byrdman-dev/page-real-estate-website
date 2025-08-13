@@ -27,14 +27,12 @@ export default function Header() {
           </Link>
           
           {/* Navigation */}
-          <nav className="flex space-x-8 pt-2">
-            <Link href="/" className="group relative px-6 py-3 text-gray-700 hover:text-gray-900 font-serif font-medium text-lg transition-all duration-300">
-              <span className="relative z-10">Home</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-100 to-gray-200 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-95 group-hover:scale-100"></div>
+          <nav className="flex space-x-6 pt-2">
+            <Link href="/" className="bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white px-8 py-3 rounded-full font-serif font-medium text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-gray-600 hover:border-gray-700">
+              Home
             </Link>
-            <Link href="/contact" className="group relative px-6 py-3 text-gray-700 hover:text-gray-900 font-serif font-medium text-lg transition-all duration-300">
-              <span className="relative z-10">Contact</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-100 to-gray-200 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-95 group-hover:scale-100"></div>
+            <Link href="/contact" className="bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white px-8 py-3 rounded-full font-serif font-medium text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-gray-600 hover:border-gray-700">
+              Contact
             </Link>
           </nav>
         </div>
