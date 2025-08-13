@@ -11,9 +11,8 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
-            <p className="text-gray-300 text-sm mb-2">(337) 555-0123</p>
-            <p className="text-gray-300 text-sm mb-2">info@laurierealestate.com</p>
-            <p className="text-gray-300 text-sm">123 Main Street, Lake Charles, LA 70601</p>
+            <p className="text-gray-300 text-sm mb-2">(337) 660-3672</p>
+            <p className="text-gray-300 text-sm mb-2">laurie@pagerealestate.com</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Services</h3>
