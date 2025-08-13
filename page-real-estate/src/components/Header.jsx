@@ -14,6 +14,9 @@ export default function Header() {
               height={96} 
               className="w-48 drop-shadow-sm" 
             />
+            <h1 className="text-2xl font-bold text-gray-800 hidden sm:block">
+              Welcome to Page Real Estate
+            </h1>
           </div>
         </Link>
         <nav className="flex space-x-2">
