@@ -8,8 +8,8 @@ export default function LaurieContactCard() {
       {/* Background hero image */}
       <div className="absolute inset-0">
         <Image 
-          src="/lake_charles_hero.jpg" 
-          alt="Lake Charles background" 
+          src="/house_interior.jpg" 
+          alt="House interior background" 
           fill
           className="object-cover opacity-80"
           priority
