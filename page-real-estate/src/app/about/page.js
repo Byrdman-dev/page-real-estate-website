@@ -7,8 +7,8 @@ export default function About() {
       {/* Background hero image */}
       <div className="absolute inset-0">
         <Image 
-          src="/house_interior.jpg" 
-          alt="House interior background" 
+          src="/lake_charles_hero.jpg" 
+          alt="Lake Charles background" 
           fill
           className="object-cover opacity-30"
           priority
