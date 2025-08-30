@@ -7,7 +7,7 @@ export default function Home() {
       {/* Background hero image */}
       <div className="absolute inset-0">
         <Image 
-          src="/house_interior.jpg" 
+          src="/house_interior2.jpg" 
           alt="House interior background" 
           fill
           className="object-cover opacity-30"
