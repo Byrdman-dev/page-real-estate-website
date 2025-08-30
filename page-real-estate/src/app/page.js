@@ -52,8 +52,9 @@ export default function Home() {
             <div className="w-24 h-1 bg-gradient-to-r from-gray-600 to-gray-800 mx-auto rounded-full"></div>
           </div>
 
-          {/* Testimonial Card */}
-          <div className="max-w-4xl mx-auto">
+          {/* Testimonial Cards Grid */}
+          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {/* First Testimonial */}
             <div className="bg-black/20 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-white/20">
               <div className="text-center">
                 <div className="mb-6">
@@ -61,7 +62,7 @@ export default function Home() {
                     <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
                   </svg>
                 </div>
-                <blockquote className="text-gray-700 text-xl leading-relaxed mb-6 italic">
+                <blockquote className="text-gray-700 text-lg leading-relaxed mb-6 italic">
                   "Laurie Campbell sold me my first home. Best investment I ever made. She made it soooo easy. She can list/ sell your home/ find you a home."
                 </blockquote>
                 <div className="flex items-center justify-center">
@@ -72,6 +73,31 @@ export default function Home() {
                   </div>
                   <div className="text-left">
                     <p className="font-semibold text-gray-800 text-lg">Shirley Witherwax</p>
+                    <p className="text-gray-600">Satisfied Client</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Second Testimonial */}
+            <div className="bg-black/20 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-white/20">
+              <div className="text-center">
+                <div className="mb-6">
+                  <svg className="w-12 h-12 text-gray-600 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+                  </svg>
+                </div>
+                <blockquote className="text-gray-700 text-lg leading-relaxed mb-6 italic">
+                  "Laurie made my buying and selling 2 homes so easy for me. She is clear and precise in her dealings and explains everything very carefully. Highly recommended"
+                </blockquote>
+                <div className="flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center mr-4">
+                    <svg className="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                    </svg>
+                  </div>
+                  <div className="text-left">
+                    <p className="font-semibold text-gray-800 text-lg">Anne Kromholz</p>
                     <p className="text-gray-600">Satisfied Client</p>
                   </div>
                 </div>
