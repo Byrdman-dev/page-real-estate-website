@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-gray-50 relative">
       {/* Background hero image */}
-      <div className="fixed inset-0 -z-10">
+      <div className="absolute inset-0">
         <Image 
           src="/house_interior.jpg" 
           alt="House interior background" 
