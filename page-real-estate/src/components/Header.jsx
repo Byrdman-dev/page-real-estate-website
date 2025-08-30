@@ -31,6 +31,9 @@ export default function Header() {
             <Link href="/" className="bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white px-8 py-3 rounded-full font-serif font-medium text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-gray-600 hover:border-gray-700">
               Home
             </Link>
+            <Link href="/about" className="bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white px-8 py-3 rounded-full font-serif font-medium text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-gray-600 hover:border-gray-700">
+              About
+            </Link>
             <Link href="/contact" className="bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white px-8 py-3 rounded-full font-serif font-medium text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-gray-600 hover:border-gray-700">
               Contact
             </Link>
