@@ -6,27 +6,25 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Page Real Estate</h3>
             <p className="text-gray-300 text-sm">
-              Your trusted partner in Lake Charles real estate for over 30 years.
+              Over 35 years of experience helping clients with all of their real estate needs.
             </p>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
+            <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <p className="text-gray-300 text-sm mb-2">(337) 660-3672</p>
             <p className="text-gray-300 text-sm mb-2">laurie@pagerealestate.com</p>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
+            <h3 className="text-lg font-semibold mb-4">Information</h3>
             <ul className="text-gray-300 text-sm space-y-1">
-              <li>Residential Sales</li>
-              <li>Property Management</li>
-              <li>Investment Properties</li>
-              <li>Commercial Real Estate</li>
+              <li>Laurie Campbell - Owner/Broker</li>
+              <li>Lake Charles, LA</li>
             </ul>
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-6 text-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Page Real Estate. All rights reserved.
+            © 2025 Page Real Estate LLC. All rights reserved.
           </p>
         </div>
       </div>
