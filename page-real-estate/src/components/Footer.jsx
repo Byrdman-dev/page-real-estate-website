@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Footer() {
   return (
     <footer className="bg-gray-800 text-white py-8 mt-auto">
@@ -22,10 +24,21 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="border-t border-gray-700 mt-8 pt-6 text-center">
-          <p className="text-gray-400 text-sm">
-            © 2025 Page Real Estate LLC. All rights reserved.
-          </p>
+        <div className="border-t border-gray-700 mt-8 pt-6">
+          <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+            <p className="text-gray-400 text-sm">
+              © 2025 Page Real Estate LLC. All rights reserved.
+            </p>
+            <div className="flex items-center space-x-2">
+              <Image 
+                src="/logo.png" 
+                alt="Realtor Logo" 
+                width={80} 
+                height={40}
+                className="opacity-80 hover:opacity-100 transition-opacity duration-300"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </footer>
