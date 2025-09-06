@@ -31,7 +31,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center space-x-2">
               <Image 
-                src="/logo.png" 
+                src="/realtor-logo-png-transparent.png" 
                 alt="Realtor Logo" 
                 width={80} 
                 height={40}
