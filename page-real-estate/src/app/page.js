@@ -96,7 +96,7 @@ export default function Home() {
               Find Your Dream Home
             </h1>
             <p className="text-2xl text-gray-200 mb-8 font-light">
-              Over 30 years of experience in Lake Charles real estate
+              Over 35 years of experience helping clients with all of their real estate needs
             </p>
             <Link href="/contact">
               <button className="bg-white hover:bg-gray-100 text-gray-800 text-xl py-4 px-10 rounded-full transition-all duration-300 font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
