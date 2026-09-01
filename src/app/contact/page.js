@@ -4,18 +4,18 @@ import { withBasePath } from "../../lib/basePath";
 export default function Contact() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="flex items-center justify-center p-6 pt-16">
+      <div className="flex items-center justify-center p-4 pt-10 sm:p-6 sm:pt-16">
         <div className="max-w-4xl w-full">
-          <div className="p-12">
+          <div className="p-4 sm:p-8 md:p-12">
             <div className="text-center mb-8">
               <div className="inline-block p-4 bg-brand/10 rounded-full mb-4">
                 <svg className="w-12 h-12 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h1 className="text-4xl font-bold text-gray-800 mb-4">Let's Connect</h1>
+              <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">Let's Connect</h1>
               <div className="w-24 h-1 bg-brand mx-auto rounded-full"></div>
-              <p className="text-gray-600 mt-4 text-lg">Ready to start your real estate journey? Get in touch today!</p>
+              <p className="text-gray-600 mt-4 text-base sm:text-lg">Ready to start your real estate journey? Get in touch today!</p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">

@@ -16,20 +16,20 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/25 to-black/10" />
 
-        <div className="relative z-10 max-w-4xl w-full text-center px-6 py-24">
-          <div className="inline-block p-4 bg-white/15 backdrop-blur-sm rounded-full mb-6">
-            <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div className="relative z-10 max-w-4xl w-full text-center px-4 py-16 sm:px-6 sm:py-24">
+          <div className="inline-block p-3 sm:p-4 bg-white/15 backdrop-blur-sm rounded-full mb-4 sm:mb-6">
+            <svg className="w-10 h-10 sm:w-16 sm:h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
             </svg>
           </div>
-          <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-6 tracking-wide drop-shadow-lg">
+          <h1 className="text-3xl sm:text-5xl md:text-7xl font-serif font-bold text-white mb-4 sm:mb-6 tracking-wide drop-shadow-lg">
             Find Your Dream Home
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 mb-10 font-light drop-shadow">
+          <p className="text-base sm:text-xl md:text-2xl text-white/90 mb-6 sm:mb-10 font-light drop-shadow">
             Over 35 years of experience helping clients with all of their real estate needs
           </p>
           <Link href="/contact">
-            <button className="bg-brand hover:bg-brand-dark text-white text-xl py-4 px-10 rounded-full transition-all duration-300 font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
+            <button className="bg-brand hover:bg-brand-dark text-white text-base sm:text-xl py-3 px-6 sm:py-4 sm:px-10 rounded-full transition-all duration-300 font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
               Start Your Journey
             </button>
           </Link>
@@ -55,7 +55,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <div className="py-16 px-6">
+      <div className="py-10 px-4 sm:py-16 sm:px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-block p-4 bg-brand/10 rounded-full mb-4">
@@ -63,21 +63,21 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
               </svg>
             </div>
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">What Our Clients Say</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">What Our Clients Say</h2>
             <div className="w-24 h-1 bg-brand mx-auto rounded-full"></div>
           </div>
 
           {/* Testimonial Cards Grid */}
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {/* First Testimonial */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+            <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-100">
               <div className="text-center">
                 <div className="mb-6">
                   <svg className="w-12 h-12 text-brand mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
                   </svg>
                 </div>
-                <blockquote className="text-gray-700 text-lg leading-relaxed mb-6 italic">
+                <blockquote className="text-gray-700 text-base sm:text-lg leading-relaxed mb-6 italic">
                   "Laurie Campbell sold me my first home. Best investment I ever made. She made it soooo easy. She can list/ sell your home/ find you a home."
                 </blockquote>
                 <div className="flex items-center justify-center">
@@ -95,14 +95,14 @@ export default function Home() {
             </div>
 
             {/* Second Testimonial */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+            <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-100">
               <div className="text-center">
                 <div className="mb-6">
                   <svg className="w-12 h-12 text-brand mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
                   </svg>
                 </div>
-                <blockquote className="text-gray-700 text-lg leading-relaxed mb-6 italic">
+                <blockquote className="text-gray-700 text-base sm:text-lg leading-relaxed mb-6 italic">
                   "Laurie made my buying and selling 2 homes so easy for me. She is clear and precise in her dealings and explains everything very carefully. Highly recommended"
                 </blockquote>
                 <div className="flex items-center justify-center">
