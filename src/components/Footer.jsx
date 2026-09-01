@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { withBasePath } from '../lib/basePath';
 
 export default function Footer() {
   return (
@@ -31,7 +32,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center space-x-2">
               <Image 
-                src="/realtor-logo-png-transparent.png" 
+                src={withBasePath("/realtor-logo-png-transparent.png")}
                 alt="Realtor Logo" 
                 width={80} 
                 height={40}

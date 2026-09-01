@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { withBasePath } from "../lib/basePath";
 
 export default function Header() {
   return (
@@ -11,7 +12,7 @@ export default function Header() {
           <Link href="/" className="transform hover:scale-105 transition-all duration-300 hover:drop-shadow-lg">
             <div className="flex flex-col items-center space-y-3">
               <Image 
-                src={"/logo.png"} 
+                src={withBasePath("/logo.png")}
                 alt="Laurie Real Estate Logo" 
                 width={240} 
                 height={120} 

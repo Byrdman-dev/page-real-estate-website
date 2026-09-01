@@ -1,6 +1,7 @@
 import React from "react";
 import { Mail, Phone, MapPin } from "lucide-react";
 import Image from "next/image";
+import { withBasePath } from "../../lib/basePath";
 
 export default function LaurieContactCard() {
   return (
@@ -8,7 +9,7 @@ export default function LaurieContactCard() {
       {/* Background hero image */}
       <div className="absolute inset-0">
         <Image 
-          src="/house_interior.jpg" 
+          src={withBasePath("/house_interior.jpg")}
           alt="House interior background" 
           fill
           className="object-cover opacity-80"
@@ -18,7 +19,7 @@ export default function LaurieContactCard() {
       {/* Header with logo */}
       <header className="relative z-10 bg-white shadow-sm p-4">
         <div className="max-w-4xl mx-auto flex justify-center">
-          <Image src={"/logo.png"} alt="Laurie Real Estate Logo" width={192} height={96} className="w-48" />
+          <Image src={withBasePath("/logo.png")} alt="Laurie Real Estate Logo" width={192} height={96} className="w-48" />
         </div>
       </header>
 

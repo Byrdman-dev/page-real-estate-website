@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { withBasePath } from "../lib/basePath";
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
         <Image
-          src="/house_interior2.jpg"
+          src={withBasePath("/house_interior2.jpg")}
           alt="Bright, modern kitchen interior"
           fill
           priority

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { withBasePath } from "../../lib/basePath";
 
 export default function Contact() {
   return (
@@ -54,7 +55,7 @@ export default function Contact() {
               <div className="w-full max-w-sm bg-white p-4 rounded-xl border border-gray-100 shadow-lg">
                 <div className="relative aspect-[3/4] rounded-lg overflow-hidden">
                   <Image
-                    src="/front door.jpg"
+                    src={withBasePath("/front door.jpg")}
                     alt="Laurie Campbell smiling on a front porch"
                     fill
                     sizes="(max-width: 768px) 100vw, 384px"

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { withBasePath } from "../../lib/basePath";
 
 export default function About() {
   return (
@@ -11,7 +12,7 @@ export default function About() {
             <div className="inline-block mb-4">
               <div className="relative w-28 h-28 rounded-full overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/head_shot.jpg"
+                  src={withBasePath("/head_shot.jpg")}
                   alt="Laurie Campbell"
                   fill
                   sizes="112px"
@@ -90,7 +91,7 @@ export default function About() {
             <div className="w-full max-w-sm bg-white p-4 rounded-xl border border-gray-100 shadow-lg">
               <div className="relative aspect-[3/4] rounded-lg overflow-hidden">
                 <Image
-                  src="/porch.jpg"
+                  src={withBasePath("/porch.jpg")}
                   alt="Laurie Campbell smiling on a front porch"
                   fill
                   sizes="(max-width: 768px) 100vw, 384px"
