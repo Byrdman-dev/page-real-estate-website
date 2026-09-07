@@ -8,23 +8,15 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 py-4 sm:px-6 sm:py-6">
         {/* Main header content - centered layout */}
         <div className="flex flex-col items-center text-center space-y-3 sm:space-y-4">
-          {/* Logo and welcome text */}
+          {/* Logo */}
           <Link href="/" className="transform hover:scale-105 transition-all duration-300 hover:drop-shadow-lg">
-            <div className="flex flex-col items-center space-y-2 sm:space-y-3">
-              <Image
-                src={withBasePath("/logo.png")}
-                alt="Laurie Real Estate Logo"
-                width={240}
-                height={120}
-                className="w-36 sm:w-48 md:w-60 drop-shadow-md"
-              />
-              <h1 className="text-xl sm:text-2xl md:text-4xl font-serif font-bold bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 bg-clip-text text-transparent tracking-wide px-2">
-                Welcome to Page Real Estate
-              </h1>
-              <p className="text-sm sm:text-base md:text-lg font-light text-gray-600 italic tracking-wider">
-                "Let me do your homework"
-              </p>
-            </div>
+            <Image
+              src={withBasePath("/Glossy purple real estate logo.png")}
+              alt="Page Real Estate Logo"
+              width={240}
+              height={120}
+              className="w-36 sm:w-48 md:w-60 drop-shadow-md"
+            />
           </Link>
 
           {/* Navigation */}
