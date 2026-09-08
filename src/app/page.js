@@ -131,13 +131,11 @@ export default function Home() {
       <div className="w-full pt-10 pb-4 px-4 sm:pt-14 sm:pb-6 sm:px-6 bg-brand">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-0">
           <div className="flex items-center gap-4 sm:px-8">
-            <Image
-              src={withBasePath("/icon-local-expertise.png")}
-              alt="Local Expertise"
-              width={64}
-              height={64}
-              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full flex-shrink-0"
-            />
+            <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-white/40 bg-white/10 flex items-center justify-center flex-shrink-0">
+              <svg className="w-7 h-7 sm:w-9 sm:h-9 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+              </svg>
+            </div>
             <p className="text-white font-serif tracking-wide uppercase text-base sm:text-lg leading-snug">
               Local<br />Expertise
             </p>
@@ -146,13 +144,15 @@ export default function Home() {
           <div className="hidden sm:block w-px h-16 bg-gradient-to-b from-transparent via-silver-light to-transparent" />
 
           <div className="flex items-center gap-4 sm:px-8">
-            <Image
-              src={withBasePath("/icon-personal-commitment.png")}
-              alt="Personal Commitment"
-              width={64}
-              height={64}
-              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full flex-shrink-0"
-            />
+            <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-white/40 bg-white/10 flex items-center justify-center flex-shrink-0">
+              <svg className="w-7 h-7 sm:w-9 sm:h-9 text-white" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+                <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+                <path d="m21 3 1 11h-2" />
+                <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+                <path d="M3 4h8" />
+              </svg>
+            </div>
             <p className="text-white font-serif tracking-wide uppercase text-base sm:text-lg leading-snug">
               Personal<br />Commitment
             </p>
@@ -161,13 +161,11 @@ export default function Home() {
           <div className="hidden sm:block w-px h-16 bg-gradient-to-b from-transparent via-silver-light to-transparent" />
 
           <div className="flex items-center gap-4 sm:px-8">
-            <Image
-              src={withBasePath("/icon-proven-results.png")}
-              alt="Proven Results"
-              width={64}
-              height={64}
-              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full flex-shrink-0"
-            />
+            <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-white/40 bg-white/10 flex items-center justify-center flex-shrink-0">
+              <svg className="w-7 h-7 sm:w-9 sm:h-9 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
+              </svg>
+            </div>
             <p className="text-white font-serif tracking-wide uppercase text-base sm:text-lg leading-snug">
               Proven<br />Results
             </p>
