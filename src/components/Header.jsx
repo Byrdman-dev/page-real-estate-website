@@ -11,7 +11,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="transform hover:scale-105 transition-all duration-300 hover:drop-shadow-lg">
             <Image
-              src={withBasePath("/Glossy purple real estate logo.png")}
+              src={withBasePath("/logo.png")}
               alt="Page Real Estate Logo"
               width={240}
               height={120}
