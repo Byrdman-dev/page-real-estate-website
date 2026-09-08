@@ -33,21 +33,21 @@ export default function Home() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
             </svg>
           </div>
-          <h1 className="text-xl sm:text-2xl md:text-4xl font-serif font-bold text-white mb-4 sm:mb-6 tracking-wide drop-shadow-lg">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-white mb-4 sm:mb-6 tracking-wide drop-shadow-lg">
             Find Your Dream Home
           </h1>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-16 mb-6 sm:mb-10 text-center">
             <div>
-              <p className="text-3xl sm:text-4xl font-bold text-white mb-1 drop-shadow">35+</p>
-              <p className="text-white/80 uppercase tracking-wide text-xs sm:text-sm font-medium">Years Experience</p>
+              <p className="text-4xl sm:text-5xl font-bold text-white mb-1 drop-shadow">35+</p>
+              <p className="text-white/80 uppercase tracking-wide text-sm sm:text-base font-medium">Years Experience</p>
             </div>
             <div>
-              <p className="text-3xl sm:text-4xl font-bold text-white mb-1 drop-shadow">Full-Service</p>
-              <p className="text-white/80 uppercase tracking-wide text-xs sm:text-sm font-medium">Buying, Selling &amp; Leasing</p>
+              <p className="text-4xl sm:text-5xl font-bold text-white mb-1 drop-shadow">Full-Service</p>
+              <p className="text-white/80 uppercase tracking-wide text-sm sm:text-base font-medium">Buying, Selling &amp; Leasing</p>
             </div>
           </div>
           <Link href="/contact">
-            <button className="bg-brand hover:bg-brand-dark text-white text-base sm:text-xl py-3 px-6 sm:py-4 sm:px-10 rounded-full transition-all duration-300 font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
+            <button className="bg-brand hover:bg-brand-dark text-white text-xl sm:text-2xl md:text-3xl py-3 px-6 sm:py-4 sm:px-10 md:py-5 md:px-12 rounded-full transition-all duration-300 font-semibold shadow-lg hover:shadow-xl transform hover:scale-105">
               Start Your Journey
             </button>
           </Link>
