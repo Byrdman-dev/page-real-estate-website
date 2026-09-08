@@ -123,7 +123,7 @@ export default function Home() {
       </div>
 
       {/* Trust Badges */}
-      <div className="w-full py-10 px-4 sm:py-14 sm:px-6 bg-[#2b1b60]">
+      <div className="w-full pt-10 pb-4 px-4 sm:pt-14 sm:pb-6 sm:px-6 bg-[#2b1b60]">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-0">
           <div className="flex items-center gap-4 sm:px-8">
             <Image

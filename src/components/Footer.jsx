@@ -3,7 +3,7 @@ import { withBasePath } from '../lib/basePath';
 
 export default function Footer() {
   return (
-    <footer className="w-full py-10 px-4 sm:py-14 sm:px-6 bg-[#2b1b60] text-white mt-auto">
+    <footer className="w-full pt-4 pb-10 px-4 sm:pt-6 sm:pb-14 sm:px-6 bg-[#2b1b60] text-white mt-auto">
       <div className="max-w-6xl mx-auto">
         <div>
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
