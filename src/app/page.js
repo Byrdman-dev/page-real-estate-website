@@ -5,7 +5,7 @@ import { withBasePath } from "../lib/basePath";
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-silver-light/10 via-white to-silver-light/10">
-      {/* Bridge Banner */}
+      {/* Bridge Banner — disabled to resolve double-hero stacking; remove this comment wrapper to restore
       <div className="w-full">
         <Image
           src={withBasePath("/Lake Charles Bridge modified.png")}
@@ -15,6 +15,7 @@ export default function Home() {
           className="w-full h-auto"
         />
       </div>
+      */}
 
       {/* Hero Section */}
       <section className="relative min-h-[50vh] sm:min-h-[65vh] lg:min-h-[85vh] flex items-center justify-center overflow-hidden">
