@@ -1,8 +1,23 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { withBasePath } from "../lib/basePath";
 
+const navLinks = [
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
+];
+
+function normalizePath(path) {
+  return path.replace(/\/$/, "") || "/";
+}
+
 export default function Header() {
+  const pathname = usePathname();
+
   return (
     <header className="relative z-10 bg-gradient-to-br from-slate-50 via-white to-gray-50 shadow-xl border-b border-silver-light">
       <div className="max-w-6xl mx-auto px-4 py-4 sm:px-6 sm:py-6">
@@ -21,15 +36,23 @@ export default function Header() {
 
           {/* Navigation */}
           <nav className="flex flex-wrap justify-center gap-2 sm:gap-4 md:gap-6 pt-2">
-            <Link href="/" className="bg-brand hover:bg-brand-dark text-white px-4 py-2 sm:px-6 sm:py-2.5 md:px-8 md:py-3 rounded-full font-serif font-medium text-sm sm:text-base md:text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-brand hover:border-brand-dark">
-              Home
-            </Link>
-            <Link href="/about" className="bg-brand hover:bg-brand-dark text-white px-4 py-2 sm:px-6 sm:py-2.5 md:px-8 md:py-3 rounded-full font-serif font-medium text-sm sm:text-base md:text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-brand hover:border-brand-dark">
-              About
-            </Link>
-            <Link href="/contact" className="bg-brand hover:bg-brand-dark text-white px-4 py-2 sm:px-6 sm:py-2.5 md:px-8 md:py-3 rounded-full font-serif font-medium text-sm sm:text-base md:text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-brand hover:border-brand-dark">
-              Contact
-            </Link>
+            {navLinks.map(({ href, label }) => {
+              const isActive = normalizePath(pathname) === normalizePath(href);
+              return (
+                <Link
+                  key={href}
+                  href={href}
+                  aria-current={isActive ? "page" : undefined}
+                  className={`px-4 py-2 sm:px-6 sm:py-2.5 md:px-8 md:py-3 rounded-full font-serif font-medium text-sm sm:text-base md:text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 border-2 ${
+                    isActive
+                      ? "bg-brand-dark text-white border-white"
+                      : "bg-brand hover:bg-brand-dark text-white border-brand hover:border-brand-dark"
+                  }`}
+                >
+                  {label}
+                </Link>
+              );
+            })}
           </nav>
         </div>
       </div>
