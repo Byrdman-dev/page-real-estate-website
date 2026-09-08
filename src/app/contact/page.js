@@ -3,7 +3,7 @@ import { withBasePath } from "../../lib/basePath";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-silver-light/10 via-white to-silver-light/10">
       <div className="py-10 px-4 sm:py-16 sm:px-6">
         <div className="max-w-4xl mx-auto">
           <div>
@@ -19,7 +19,7 @@ export default function Contact() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-white p-6 rounded-xl border border-gray-100 shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <div className="bg-white p-6 rounded-xl border border-silver-light/50 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <div className="flex items-center mb-4">
                   <div className="p-3 bg-brand/10 rounded-lg mr-4">
                     <svg className="w-6 h-6 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -34,7 +34,7 @@ export default function Contact() {
                 <p className="text-gray-700">Ready to talk? Give me a call for immediate assistance with all your real estate needs.</p>
               </div>
 
-              <div className="bg-white p-6 rounded-xl border border-gray-100 shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <div className="bg-white p-6 rounded-xl border border-silver-light/50 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <div className="flex items-center mb-4">
                   <div className="p-3 bg-brand/10 rounded-lg mr-4">
                     <svg className="w-6 h-6 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -52,7 +52,7 @@ export default function Contact() {
 
             {/* Portrait */}
             <div className="mt-8 flex justify-center">
-              <div className="w-full max-w-sm bg-white p-4 rounded-xl border border-gray-100 shadow-lg">
+              <div className="w-full max-w-sm bg-white p-4 rounded-xl border border-silver-light/50 shadow-lg">
                 <div className="relative aspect-[3/4] rounded-lg overflow-hidden">
                   <Image
                     src={withBasePath("/front door.jpg")}

@@ -4,7 +4,7 @@ import { withBasePath } from "../../lib/basePath";
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-silver-light/10 via-white to-silver-light/10">
       {/* About Laurie Section */}
       <div className="py-10 px-4 sm:py-16 sm:px-6">
         <div className="max-w-6xl mx-auto">
@@ -35,7 +35,7 @@ export default function About() {
 
           {/* Quote Section */}
           <div className="mb-12">
-            <div className="bg-white p-6 sm:p-8 rounded-xl border border-gray-100 border-l-4 border-l-brand shadow-lg max-w-4xl mx-auto">
+            <div className="bg-white p-6 sm:p-8 rounded-xl border border-silver-light/50 border-l-4 border-l-brand shadow-lg max-w-4xl mx-auto">
               <p className="text-gray-700 text-base sm:text-xl leading-relaxed text-center italic">
                 <span className="text-3xl text-brand font-bold">"</span>Laurie began her real estate career over 30 years ago in Lake Charles. She started in property
                 management and transitioned into sales after 12 years of managing several apartment
@@ -47,7 +47,7 @@ export default function About() {
 
           {/* Services Grid */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white p-6 sm:p-8 rounded-xl border border-gray-100 shadow-lg">
+            <div className="bg-white p-6 sm:p-8 rounded-xl border border-silver-light/50 shadow-lg">
               <div className="flex items-center mb-6">
                 <div className="p-3 bg-brand/10 rounded-lg mr-4">
                   <svg className="w-8 h-8 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -63,7 +63,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="bg-white p-6 sm:p-8 rounded-xl border border-gray-100 shadow-lg">
+            <div className="bg-white p-6 sm:p-8 rounded-xl border border-silver-light/50 shadow-lg">
               <div className="flex items-center mb-6">
                 <div className="p-3 bg-brand/10 rounded-lg mr-4">
                   <svg className="w-8 h-8 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -77,7 +77,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="bg-white p-6 sm:p-8 rounded-xl border border-gray-100 shadow-lg">
+            <div className="bg-white p-6 sm:p-8 rounded-xl border border-silver-light/50 shadow-lg">
               <div className="flex items-center mb-6">
                 <div className="p-3 bg-brand/10 rounded-lg mr-4">
                   <svg className="w-8 h-8 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -97,7 +97,7 @@ export default function About() {
 
           {/* Portrait */}
           <div className="flex justify-center mb-12">
-            <div className="w-full max-w-sm bg-white p-4 rounded-xl border border-gray-100 shadow-lg">
+            <div className="w-full max-w-sm bg-white p-4 rounded-xl border border-silver-light/50 shadow-lg">
               <div className="relative aspect-[3/4] rounded-lg overflow-hidden">
                 <Image
                   src={withBasePath("/porch.jpg")}

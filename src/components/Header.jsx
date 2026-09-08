@@ -4,7 +4,7 @@ import { withBasePath } from "../lib/basePath";
 
 export default function Header() {
   return (
-    <header className="relative z-10 bg-gradient-to-br from-slate-50 via-white to-gray-50 shadow-xl border-b border-gray-300">
+    <header className="relative z-10 bg-gradient-to-br from-slate-50 via-white to-gray-50 shadow-xl border-b border-silver-light">
       <div className="max-w-6xl mx-auto px-4 py-4 sm:px-6 sm:py-6">
         {/* Main header content - centered layout */}
         <div className="flex flex-col items-center text-center space-y-3 sm:space-y-4">

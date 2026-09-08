@@ -4,7 +4,7 @@ import { withBasePath } from "../lib/basePath";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-silver-light/10 via-white to-silver-light/10">
       {/* Bridge Banner */}
       <div className="w-full">
         <Image
@@ -70,7 +70,7 @@ export default function Home() {
           {/* Testimonial Cards Grid */}
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {/* First Testimonial */}
-            <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-100">
+            <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg border border-silver-light/50">
               <div className="text-center">
                 <div className="mb-6">
                   <svg className="w-12 h-12 text-brand mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
@@ -95,7 +95,7 @@ export default function Home() {
             </div>
 
             {/* Second Testimonial */}
-            <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-100">
+            <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg border border-silver-light/50">
               <div className="text-center">
                 <div className="mb-6">
                   <svg className="w-12 h-12 text-brand mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
