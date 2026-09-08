@@ -4,7 +4,7 @@ import { withBasePath } from '../lib/basePath';
 
 export default function Footer() {
   return (
-    <footer className="w-full pt-4 pb-10 px-4 sm:pt-6 sm:pb-14 sm:px-6 bg-[#2b1b60] text-white mt-auto">
+    <footer className="w-full pt-4 pb-10 px-4 sm:pt-6 sm:pb-14 sm:px-6 bg-brand text-white mt-auto">
       <div className="max-w-6xl mx-auto">
         <div>
           <nav className="flex items-center justify-center gap-6 sm:gap-8 mb-6 text-lg sm:text-xl font-serif">
