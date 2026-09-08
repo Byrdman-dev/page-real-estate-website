@@ -21,7 +21,16 @@ export default function About() {
               </div>
             </div>
             <h1 className="text-4xl sm:text-5xl font-serif font-bold text-gray-800 mb-4">Meet Laurie Campbell</h1>
-            <div className="w-24 h-1 bg-brand mx-auto rounded-full"></div>
+            <div className="w-24 h-1 bg-brand mx-auto rounded-full mb-6"></div>
+            <div className="flex items-center justify-center gap-3">
+              <svg className="w-6 h-6 sm:w-7 sm:h-7 text-brand flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <p className="text-gray-600 font-serif tracking-wide uppercase text-sm sm:text-base leading-snug">
+                Serving Lake Charles &amp; Surrounding Areas
+              </p>
+            </div>
           </div>
 
           {/* Quote Section */}
