@@ -136,7 +136,7 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
               </svg>
             </div>
-            <p className="text-white font-serif tracking-wide uppercase text-base sm:text-lg leading-snug">
+            <p className="text-white font-serif tracking-wide uppercase text-base sm:text-lg leading-snug w-36 text-left">
               Local<br />Expertise
             </p>
           </div>
@@ -153,7 +153,7 @@ export default function Home() {
                 <path d="M3 4h8" />
               </svg>
             </div>
-            <p className="text-white font-serif tracking-wide uppercase text-base sm:text-lg leading-snug">
+            <p className="text-white font-serif tracking-wide uppercase text-base sm:text-lg leading-snug w-36 text-left">
               Personal<br />Commitment
             </p>
           </div>
@@ -166,7 +166,7 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
               </svg>
             </div>
-            <p className="text-white font-serif tracking-wide uppercase text-base sm:text-lg leading-snug">
+            <p className="text-white font-serif tracking-wide uppercase text-base sm:text-lg leading-snug w-36 text-left">
               Proven<br />Results
             </p>
           </div>
