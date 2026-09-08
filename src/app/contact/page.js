@@ -14,7 +14,7 @@ export default function Contact() {
                 </svg>
               </div>
               <h1 className="text-4xl sm:text-5xl font-serif font-bold text-gray-800 mb-4">Let's Connect</h1>
-              <div className="w-24 h-1 bg-brand mx-auto rounded-full"></div>
+              <div className="w-24 h-1 bg-gradient-to-r from-silver-dark via-silver-light to-silver-dark mx-auto rounded-full"></div>
               <p className="text-gray-600 mt-4 text-base sm:text-lg">Ready to start your real estate journey? Get in touch today!</p>
             </div>
 

@@ -64,7 +64,7 @@ export default function Home() {
               </svg>
             </div>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-800 mb-4">What Our Clients Say</h2>
-            <div className="w-24 h-1 bg-brand mx-auto rounded-full"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-silver-dark via-silver-light to-silver-dark mx-auto rounded-full"></div>
           </div>
 
           {/* Testimonial Cards Grid */}
@@ -138,7 +138,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="hidden sm:block w-px h-16 bg-white/20" />
+          <div className="hidden sm:block w-px h-16 bg-gradient-to-b from-transparent via-silver-light to-transparent" />
 
           <div className="flex items-center gap-4 sm:px-8">
             <Image
@@ -153,7 +153,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="hidden sm:block w-px h-16 bg-white/20" />
+          <div className="hidden sm:block w-px h-16 bg-gradient-to-b from-transparent via-silver-light to-transparent" />
 
           <div className="flex items-center gap-4 sm:px-8">
             <Image
@@ -169,7 +169,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="max-w-5xl mx-auto mt-10 sm:mt-12 pt-8 sm:pt-10 border-t border-white/15 flex flex-col items-center gap-8">
+        <div className="max-w-5xl mx-auto h-px mt-10 sm:mt-12 bg-gradient-to-r from-transparent via-silver-light to-transparent" />
+
+        <div className="max-w-5xl mx-auto pt-8 sm:pt-10 flex flex-col items-center gap-8">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-0">
             <div className="flex items-center gap-4 sm:px-8">
               <div className="w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center flex-shrink-0">
@@ -182,7 +184,7 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="hidden sm:block w-px h-16 bg-white/20" />
+            <div className="hidden sm:block w-px h-16 bg-gradient-to-b from-transparent via-silver-light to-transparent" />
 
             <div className="flex items-center gap-4 sm:px-8">
               <div className="w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center flex-shrink-0">
