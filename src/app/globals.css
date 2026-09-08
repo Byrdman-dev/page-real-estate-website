@@ -5,6 +5,9 @@
   --foreground: #171717;
   --brand: #4b229b;
   --brand-dark: #381a74;
+  --silver-light: #d4d3d3;
+  --silver: #a6a5a5;
+  --silver-dark: #7f7d7e;
 }
 
 @theme inline {
@@ -12,6 +15,9 @@
   --color-foreground: var(--foreground);
   --color-brand: var(--brand);
   --color-brand-dark: var(--brand-dark);
+  --color-silver-light: var(--silver-light);
+  --color-silver: var(--silver);
+  --color-silver-dark: var(--silver-dark);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
