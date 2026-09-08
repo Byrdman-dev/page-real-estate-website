@@ -15,7 +15,7 @@ export default function Header() {
               alt="Page Real Estate Logo"
               width={240}
               height={120}
-              className="w-36 sm:w-48 md:w-60 drop-shadow-md"
+              className="w-56 sm:w-72 md:w-96 drop-shadow-md"
             />
           </Link>
 
