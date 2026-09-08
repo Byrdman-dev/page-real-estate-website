@@ -37,7 +37,7 @@ export default function Home() {
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-white mb-4 sm:mb-6 tracking-wide drop-shadow-lg">
             Find Your Dream Home
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-10 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-10 text-center">
             <div>
               <p className="text-4xl sm:text-5xl font-bold text-white mb-1 drop-shadow">35+</p>
               <p className="text-white/80 uppercase tracking-wide text-sm sm:text-base font-medium">Years Experience</p>
