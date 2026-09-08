@@ -5,27 +5,7 @@ export default function Footer() {
   return (
     <footer className="w-full py-10 px-4 sm:py-14 sm:px-6 bg-[#2b1b60] text-white mt-auto">
       <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-3 gap-8">
-          <div>
-            <h3 className="text-lg font-serif font-semibold mb-4">Page Real Estate</h3>
-            <p className="text-gray-300 text-sm">
-              Over 35 years of experience helping clients with all of their real estate needs.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-lg font-serif font-semibold mb-4">Contact</h3>
-            <p className="text-gray-300 text-sm mb-2">(337) 660-3672</p>
-            <p className="text-gray-300 text-sm mb-2">laurie@pagerealestate.com</p>
-          </div>
-          <div>
-            <h3 className="text-lg font-serif font-semibold mb-4">Information</h3>
-            <ul className="text-gray-300 text-sm space-y-1">
-              <li>Laurie Campbell - Owner/Broker</li>
-              <li>Lake Charles, LA</li>
-            </ul>
-          </div>
-        </div>
-        <div className="border-t border-gray-700 mt-8 pt-6">
+        <div>
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
               © {new Date().getFullYear()} Page Real Estate LLC. All rights reserved.
