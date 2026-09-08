@@ -3,8 +3,8 @@ import { withBasePath } from '../lib/basePath';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-8 mt-auto">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+    <footer className="w-full py-10 px-4 sm:py-14 sm:px-6 bg-[#2b1b60] text-white mt-auto">
+      <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-serif font-semibold mb-4">Page Real Estate</h3>
@@ -31,10 +31,10 @@ export default function Footer() {
               © {new Date().getFullYear()} Page Real Estate LLC. All rights reserved.
             </p>
             <div className="flex items-center space-x-2">
-              <Image 
+              <Image
                 src={withBasePath("/realtor-logo-png-transparent.png")}
-                alt="Realtor Logo" 
-                width={80} 
+                alt="Realtor Logo"
+                width={80}
                 height={40}
                 className="opacity-80 hover:opacity-100 transition-opacity duration-300"
               />
