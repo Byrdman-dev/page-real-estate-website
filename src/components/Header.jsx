@@ -33,6 +33,9 @@ export default function Header() {
               className="w-56 sm:w-72 md:w-96 drop-shadow-md"
             />
           </Link>
+          <p className="text-lg sm:text-xl md:text-2xl font-light text-gray-600 italic tracking-wider">
+            "Let me do your homework"
+          </p>
 
           {/* Navigation */}
           <nav className="flex flex-wrap justify-center gap-2 sm:gap-4 md:gap-6 pt-2">
