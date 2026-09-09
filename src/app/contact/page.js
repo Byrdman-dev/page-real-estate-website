@@ -43,7 +43,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-xl font-serif font-semibold text-gray-800">Email Me</h3>
-                    <p className="text-gray-700 font-medium">laurie@pagerealestate.com</p>
+                    <p className="text-gray-700 font-medium">laurie@pagerealestatelc.com</p>
                   </div>
                 </div>
                 <p className="text-gray-700">Prefer email? Send me a message and I'll get back to you within 24 hours.</p>
